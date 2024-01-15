@@ -26,10 +26,9 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col py-10 items-center h-[100vh] w-[100vw] bg-gradient-to-r from-teal-400 to-yellow-200">
+      <div className="flex flex-col py-10 text-center  items-center h-[100vh] w-[100vw] bg-gradient-to-r from-teal-400 to-yellow-200">
         <h1 className="py-14 text-4xl font-mono font-bold text-white">
-          {" "}
-          Google APi Integrate{" "}
+          Google APi Integrate
         </h1>
         {!isLoaded ? (
           <h1>Loading...</h1>
